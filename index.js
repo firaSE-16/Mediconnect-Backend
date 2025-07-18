@@ -24,7 +24,7 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: ["http://localhost:5173", "http://localhost:5174", "http://localhost:5175","http://localhost:7500","https://mediconnet-frontend.onrender.com","https://arada-front.onrender.com", "https://mediconnet-frontend-vojw.onrender.com", "https://arardahospital-frontend.onrender.com","https://arada-hospital-backend.onrender.com","https://mediconnect-pearl-two.vercel.app","https://mediconnect-pearl-two.vercel.app/","https://mediconnect-frontend-tau.vercel.app","https://mediconnect-frontend-tau.vercel.app/"],
+    origin: ["http://localhost:5173", "http://localhost:5174", "http://localhost:5175","http://localhost:7500","https://mediconnet-frontend.onrender.com","https://arada-front.onrender.com", "https://mediconnet-frontend-vojw.onrender.com", "https://arardahospital-frontend.onrender.com","https://arada-hospital-backend.onrender.com","https://mediconnect-pearl-two.vercel.app","https://mediconnect-pearl-two.vercel.app/","https://mediconnect-frontend-tau.vercel.app","https://mediconnect-frontend-tau.vercel.app/","https://medi-front.vercel.app/","https://medi-front.vercel.app"],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization", "X-Requested-With"]
